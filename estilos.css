@@ -211,8 +211,40 @@ h2.title {
    
  
 
-.typed {
-    color: #9a843f
+ .typed {
+    /* color: #9a843f; */
+    font-weight: bold;
+    font-size: 4.5rem;
+
+}
+
+/* carrusel-promociones */
+
+.noti-row{
+    background: #0081c8;
+}
+
+.icon-noti{
+    font-size: 80px;
+    text-align: center;
+    color: #0082c8;
+}
+
+.card-noti {
+    width: 300px;
+    height: 250px;
+    background: #000;
+    color: #fff;
+    margin: auto;
+}
+
+.img-carrusel {
+    width: 250px;
+    height: 250px;
+}
+
+.row {
+    margin: 0;
 }
 
 /* About-us*/
@@ -409,6 +441,7 @@ h2.title {
 
 /*Services*/
 
+
 input {
     font: inherit;
 }
@@ -502,11 +535,11 @@ input {
 .box-skills h4 {
     font-size: 24px;
     background: #f2f2f2;
-    width: 350px;
+    width: 300px;
     border-radius: 6px;
     padding: 10px 0 10px 15px;
     /*hacemos que se extienda */
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     /*para separar uno de otro* y se vea mas grande*/
 }
 
@@ -516,6 +549,24 @@ input {
     font-size: 20px;
     /*y para hacer un espacio entre el elemento i y el texto  hay que hacerlo desde el html, dar espacio en la etiqueta*/
 }
+
+/* Sucursales */
+.sucursales {
+    /* margin: o auto;
+    display: flex;
+    text-align: center; */
+    width: 800px;
+    height: 300px;
+    padding: 0 3rem 1rem 1rem;
+    margin-left: 195px;
+}
+
+p.p_titulo {
+    font-size: 25px;
+    text-align: center;
+}
+
+
 
 /*Footer*/
 
